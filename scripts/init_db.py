@@ -99,7 +99,8 @@ def main():
     try:
         # Connect to Oracle
         print("Connecting to Oracle database...")
-        dsn = cx_Oracle.makedsn("localhost", 1521, service_name="XEPDB1")
+        dsn = cx_Oracle.makedsn('localhost', 1521, service_name="freepdb1")
+
         conn = cx_Oracle.connect("SYSTEM", "tiger", dsn)
         cursor = conn.cursor()
         

@@ -7,7 +7,7 @@ DB_USER    = "SYSTEM"
 DB_PASS    = "tiger"
 DB_HOST    = "localhost"
 DB_PORT    = 1521
-DB_SERVICE = "XEPDB1"
+DB_SERVICE = "freepdb1"
 
 app = Flask(__name__)
 app.secret_key = 'flight_management_secret_key'  # Required for flash messages
